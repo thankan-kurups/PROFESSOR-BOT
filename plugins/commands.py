@@ -41,7 +41,7 @@ async def start(client, message):
             InlineKeyboardButton("Hᴇʟᴩ 🕸️", url="https://t.me/aditya98A"),
             InlineKeyboardButton("Aʙᴏᴜᴛ ✨", callback_data="about")
             ],[
-            InlineKeyboardButton("🎉 my group 🎉", url="https://t.me/MovieHouseChannelbot")
+            InlineKeyboardButton("🎉 Main Channel 🎉", url="https://t.me/MovieHouseChannelbot")
         ]]
         m = await message.reply_sticker("CAACAgUAAxkBAAEBvlVk7YKnYxIHVnKW2PUwoibIR2ygGAACBAADwSQxMYnlHW4Ls8gQHgQ") 
         await asyncio.sleep(2)
@@ -69,13 +69,13 @@ async def start(client, message):
             InlineKeyboardButton("➕️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀᴛ ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
             InlineKeyboardButton("Sᴇᴀʀᴄʜ 🔎", switch_inline_query_current_chat=''), 
-            InlineKeyboardButton("Cʜᴀɴɴᴇʟ 🔈", url="https://t.me/moviecrownofficial")
+            InlineKeyboardButton("Cʜᴀɴɴᴇʟ 🔈", url="https://t.me/MovieHouseChannelbot")
             ],[      
             InlineKeyboardButton("Hᴇʟᴩ 🕸️", url="https://t.me/aditya98A"),
             InlineKeyboardButton("Aʙᴏᴜᴛ ✨", callback_data="about")
             ],[
       
-            InlineKeyboardButton("🎉 my group 🎉", url="https://t.me/MovieHouseChannelbot")      
+            InlineKeyboardButton("🎉 Main Channel 🎉", url="https://t.me/MovieHouseChannelbot")      
         ]]
         m = await message.reply_sticker("CAACAgUAAxkBAAEBvlVk7YKnYxIHVnKW2PUwoibIR2ygGAACBAADwSQxMYnlHW4Ls8gQHgQ")
         await asyncio.sleep(2)
