@@ -17,7 +17,7 @@ BATCH_FILES = {}
 async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[           
-            InlineKeyboardButton('📢 Uᴩᴅᴀᴛᴇꜱ 📢', url='https://t.me/MovieHouseChannelbot}')
+            InlineKeyboardButton('📢 Uᴩᴅᴀᴛᴇꜱ 📢', url='https://t.me/MovieHouseChannelbot')
             ],[
             InlineKeyboardButton('ℹ️ Hᴇʟᴩ ℹ️', url="https://t.me/aditya98A")
         ]]
@@ -40,6 +40,8 @@ async def start(client, message):
             ],[      
             InlineKeyboardButton("Hᴇʟᴩ 🕸️", url="https://t.me/aditya98A"),
             InlineKeyboardButton("Aʙᴏᴜᴛ ✨", callback_data="about")
+            ],[
+            InlineKeyboardButton("🎉 my group 🎉", url="https://t.me/MovieHouseChannelbot")
         ]]
         m = await message.reply_sticker("CAACAgUAAxkBAAEBvlVk7YKnYxIHVnKW2PUwoibIR2ygGAACBAADwSQxMYnlHW4Ls8gQHgQ") 
         await asyncio.sleep(2)
@@ -71,6 +73,9 @@ async def start(client, message):
             ],[      
             InlineKeyboardButton("Hᴇʟᴩ 🕸️", url="https://t.me/aditya98A"),
             InlineKeyboardButton("Aʙᴏᴜᴛ ✨", callback_data="about")
+            ],[
+      
+            InlineKeyboardButton("🎉 my group 🎉", url="https://t.me/MovieHouseChannelbot")      
         ]]
         m = await message.reply_sticker("CAACAgUAAxkBAAEBvlVk7YKnYxIHVnKW2PUwoibIR2ygGAACBAADwSQxMYnlHW4Ls8gQHgQ")
         await asyncio.sleep(2)
