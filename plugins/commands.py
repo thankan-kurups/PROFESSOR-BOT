@@ -41,7 +41,7 @@ async def start(client, message):
             InlineKeyboardButton("Hᴇʟᴩ 🕸️", url="https://t.me/aditya98A"),
             InlineKeyboardButton("Aʙᴏᴜᴛ ✨", callback_data="about")
             ],[
-            InlineKeyboardButton("📗 WhatsApp Support 📗", url="https://whatsapp.com/channel/0029Va6B3QI4tRrukh77eY2v")
+            InlineKeyboardButton("WhatsApp Support", url="https://whatsapp.com/channel/0029Va6B3QI4tRrukh77eY2v")
         ]]
         m = await message.reply_sticker("CAACAgUAAxkBAAEBvlVk7YKnYxIHVnKW2PUwoibIR2ygGAACBAADwSQxMYnlHW4Ls8gQHgQ") 
         await asyncio.sleep(2)
@@ -75,7 +75,7 @@ async def start(client, message):
             InlineKeyboardButton("Aʙᴏᴜᴛ ✨", callback_data="about")
             ],[
       
-            InlineKeyboardButton(📗 WhatsApp Support 📗", url="https://whatsapp.com/channel/0029Va6B3QI4tRrukh77eY2v")      
+            InlineKeyboardButton("WhatsApp Support", url="https://whatsapp.com/channel/0029Va6B3QI4tRrukh77eY2v")      
         ]]
         m = await message.reply_sticker("CAACAgUAAxkBAAEBvlVk7YKnYxIHVnKW2PUwoibIR2ygGAACBAADwSQxMYnlHW4Ls8gQHgQ")
         await asyncio.sleep(2)
