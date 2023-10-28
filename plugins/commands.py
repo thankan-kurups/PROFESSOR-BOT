@@ -19,7 +19,7 @@ async def start(client, message):
         buttons = [[           
             InlineKeyboardButton('📢 Uᴩᴅᴀᴛᴇꜱ 📢', url='https://t.me/MovieHouseChannelbot')
             ],[
-            InlineKeyboardButton('ℹ️ Hᴇʟᴩ ℹ️', url="https://t.me/aditya98A")
+            InlineKeyboardButton('ℹ️ Hᴇʟᴩ ℹ️', url="https://t.me/+fFmB_6zNOfIzMTdl")
         ]]
         await message.reply(START_MESSAGE.format(user=message.from_user.mention if message.from_user else message.chat.title, bot=client.mention), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)                    
         await asyncio.sleep(2) 
@@ -38,7 +38,7 @@ async def start(client, message):
             InlineKeyboardButton("Sᴇᴀʀᴄʜ 🔎", switch_inline_query_current_chat=''), 
             InlineKeyboardButton("Cʜᴀɴɴᴇʟ 🔈", url="https://t.me/MovieHouseChannelbot")
             ],[      
-            InlineKeyboardButton("Hᴇʟᴩ 🕸️", url="https://t.me/aditya98A"),
+            InlineKeyboardButton("Hᴇʟᴩ 🕸️", url="https://t.me/+fFmB_6zNOfIzMTdl"),
             InlineKeyboardButton("Aʙᴏᴜᴛ ✨", callback_data="about")
             ],[
             InlineKeyboardButton("WhatsApp Support", url="https://whatsapp.com/channel/0029Va6B3QI4tRrukh77eY2v")
@@ -71,7 +71,7 @@ async def start(client, message):
             InlineKeyboardButton("Sᴇᴀʀᴄʜ 🔎", switch_inline_query_current_chat=''), 
             InlineKeyboardButton("Cʜᴀɴɴᴇʟ 🔈", url="https://t.me/MovieHouseChannelbot")
             ],[      
-            InlineKeyboardButton("Hᴇʟᴩ 🕸️", url="https://t.me/aditya98A"),
+            InlineKeyboardButton("Hᴇʟᴩ 🕸️", url="https://t.me/+fFmB_6zNOfIzMTdl"),
             InlineKeyboardButton("Aʙᴏᴜᴛ ✨", callback_data="about")
             ],[
       
